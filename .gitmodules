@@ -1,0 +1,3 @@
+[submodule "vended-lisp/copilot.el"]
+	path = vended-lisp/copilot.el
+	url = https://github.com/copilot-emacs/copilot.el
