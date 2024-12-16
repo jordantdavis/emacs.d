@@ -102,7 +102,7 @@ typical word processor."
       (writeroom-mode 0))))
 
 ;;(add-hook 'org-mode-hook 'buffer-face-mode)
-
+(add-hook 'org-mode-hook 'org-indent-mode)
 
 (setq org-support-shift-select t)
 
@@ -352,7 +352,7 @@ typical word processor."
 ;;                   (re-search-backward "^[0-9]+:[0-9]+-[0-9]+:[0-9]+ " nil t))
 ;;                 (insert (match-string 0))))))
 
-
+
 (with-eval-after-load 'org
   (define-key org-mode-map (kbd "C-M-<up>") 'org-up-element)
   (when *is-a-mac*
