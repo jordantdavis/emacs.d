@@ -4,8 +4,10 @@
 
 (maybe-require-package 'elixir-mode)
 
-;; TODO: configure copilot for Elixir
-;; (add-to-list 'copilot-major-mode-alist '("elixir-mode" . "elixir"))
+
+;;; elixir + copilot setup
+(add-to-list 'copilot-major-mode-alist '("elixir" . "elixir"))
+(add-hook 'elixir-mode-hook 'copilot-mode)
 
 (provide 'init-elixir)
 ;;; init-elixir.el ends here

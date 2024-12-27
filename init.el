@@ -91,6 +91,7 @@
 (require 'init-github)
 
 (require 'init-projectile)
+(require 'init-copilot)
 
 (require 'init-compile)
 (require 'init-crontab)
@@ -123,7 +124,6 @@
 (require 'init-docker)
 (require 'init-terraform)
 (require 'init-nix)
-(require 'init-copilot)
 (maybe-require-package 'nginx-mode)
 (maybe-require-package 'just-mode)
 (when (maybe-require-package 'just-ts-mode)
